@@ -1,7 +1,7 @@
 const { Client } = require("blague.xyz");
 const { VDM } = require("blague.xyz/lib/VDM");
 const { MessageEmbed, Message } = require("discord.js");
-const joker = new Client(process.env.BlagueApi, {
+const joker = new Client(process.env.blagueApi, {
     defaultLang: "EN" //  The default language for jokes and fml  
 });
 
